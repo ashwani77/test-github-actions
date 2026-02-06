@@ -19,7 +19,7 @@ jobs:
       # list files
       - name: Install deps
         run: ls -la
-  
+
       # ✅ THEN setup python
       - name: Setup Python
         uses: actions/setup-python@v5
